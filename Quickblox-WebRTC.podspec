@@ -10,5 +10,5 @@ Pod::Spec.new do |spec|
   spec.source       = { :http => 'http://sdk.quickblox.com/ios/QuickbloxWebRTC.framework-2.1.1.zip' }
   spec.requires_arc = true
   spec.frameworks = 'CFNetwork', 'GLKit', 'MobileCoreServices', 'SystemConfiguration', 'VideoToolbox', 'Accelerate', 'CoreMedia'
-  s.xcconfig                = { 'OTHER_LDFLAGS' => '-lstdc++'}
+  spec.xcconfig                = { 'OTHER_LDFLAGS' => '-lstdc++'}
 end
