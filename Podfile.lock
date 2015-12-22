@@ -2,13 +2,13 @@ PODS:
   - Quickblox-WebRTC (2.1.1)
 
 DEPENDENCIES:
-  - Quickblox-WebRTC (from `~/Documents/work/qbrtc_podspec_dependencies/`)
+  - Quickblox-WebRTC (from `https://raw.githubusercontent.com/iSevenDays/testingPodSpecs/master/Quickblox-WebRTC.podspec`)
 
 EXTERNAL SOURCES:
   Quickblox-WebRTC:
-    :path: "~/Documents/work/qbrtc_podspec_dependencies/"
+    :podspec: https://raw.githubusercontent.com/iSevenDays/testingPodSpecs/master/Quickblox-WebRTC.podspec
 
 SPEC CHECKSUMS:
   Quickblox-WebRTC: 130c60c5dcf3358ac43182d533e80eb69f2a301e
 
-COCOAPODS: 0.38.2
+COCOAPODS: 0.39.0
