@@ -1,0 +1,1 @@
+pod 'Quickblox-WebRTC', :path => '~/Documents/work/qbrtc_podspec_dependencies/'

@@ -1,0 +1,14 @@
+PODS:
+  - Quickblox-WebRTC (2.1.1)
+
+DEPENDENCIES:
+  - Quickblox-WebRTC (from `~/Documents/work/qbrtc_podspec_dependencies/`)
+
+EXTERNAL SOURCES:
+  Quickblox-WebRTC:
+    :path: "~/Documents/work/qbrtc_podspec_dependencies/"
+
+SPEC CHECKSUMS:
+  Quickblox-WebRTC: 130c60c5dcf3358ac43182d533e80eb69f2a301e
+
+COCOAPODS: 0.38.2
