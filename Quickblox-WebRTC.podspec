@@ -9,6 +9,6 @@ Pod::Spec.new do |spec|
   spec.vendored_frameworks = "QuickbloxWebRTC.framework"
   spec.source       = { :http => 'http://sdk.quickblox.com/ios/QuickbloxWebRTC.framework-2.1.1.zip' }
   spec.requires_arc = true
-  spec.frameworks = 'AVFoundation', 'AudioUnit', 'CFNetwork', 'GLKit', 'MobileCoreServices', 'SystemConfiguration', 'VideoToolbox', 'Accelerate', 'CoreMedia', 'UIKit'
+  spec.frameworks = 'AVFoundation', 'AudioToolbox', 'CFNetwork', 'GLKit', 'MobileCoreServices', 'SystemConfiguration', 'VideoToolbox', 'Accelerate', 'CoreMedia', 'UIKit'
   spec.xcconfig                = { 'OTHER_LDFLAGS' => '$(inherited) -lstdc++'}
 end
