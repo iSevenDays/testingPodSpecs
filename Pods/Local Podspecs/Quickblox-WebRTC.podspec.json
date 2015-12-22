@@ -21,13 +21,15 @@
   },
   "requires_arc": true,
   "frameworks": [
+    "AVFoundation",
     "CFNetwork",
     "GLKit",
     "MobileCoreServices",
     "SystemConfiguration",
     "VideoToolbox",
     "Accelerate",
-    "CoreMedia"
+    "CoreMedia",
+    "UIKit"
   ],
   "xcconfig": {
     "OTHER_LDFLAGS": "$(inherited) -lstdc++"

@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :podspec: https://raw.githubusercontent.com/iSevenDays/testingPodSpecs/master/Quickblox-WebRTC.podspec
 
 SPEC CHECKSUMS:
-  Quickblox-WebRTC: 8701ddf75a812c3e85259f6e38fb82239dda4794
+  Quickblox-WebRTC: a027ed362768983486bf652b97ff44dedef776cb
 
 COCOAPODS: 0.39.0
